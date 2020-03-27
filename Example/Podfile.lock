@@ -1,27 +1,30 @@
 PODS:
-  - Realm (3.11.1):
-    - Realm/Headers (= 3.11.1)
-  - Realm/Headers (3.11.1)
-  - RealmSwift (3.11.1):
-    - Realm (= 3.11.1)
-  - RxCocoa (4.3.1):
-    - RxSwift (~> 4.0)
-  - RxRealm (0.7.5):
-    - RealmSwift (~> 3.0)
-    - RxSwift (~> 4.0)
-  - RxRealmDataSources (0.2.9):
-    - RealmSwift (~> 3.0)
-    - RxCocoa (~> 4.0)
-    - RxRealm (~> 0.7.3)
-    - RxSwift (~> 4.0)
-  - RxSwift (4.3.1)
+  - Realm (4.4.0):
+    - Realm/Headers (= 4.4.0)
+  - Realm/Headers (4.4.0)
+  - RealmSwift (4.4.0):
+    - Realm (= 4.4.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRealm (2.0.0):
+    - RealmSwift (~> 4.0)
+    - RxSwift (~> 5.0)
+  - RxRealmDataSources (0.4.0):
+    - RealmSwift
+    - RxCocoa
+    - RxRealm
+    - RxSwift
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
 
 DEPENDENCIES:
-  - RealmSwift (~> 3.0)
-  - RxCocoa (~> 4.0)
-  - RxRealm (~> 0.7.3)
+  - RealmSwift
+  - RxCocoa
+  - RxRealm
   - RxRealmDataSources (from `../`)
-  - RxSwift (~> 4.0)
+  - RxSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -29,6 +32,7 @@ SPEC REPOS:
     - RealmSwift
     - RxCocoa
     - RxRealm
+    - RxRelay
     - RxSwift
 
 EXTERNAL SOURCES:
@@ -36,13 +40,14 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Realm: 037c5919b9ceb59d6beed5d3b031096856b119b3
-  RealmSwift: c9580133e73ef40ed340401af2dbc9a5790dfea7
-  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
-  RxRealm: a6c6c0a07cb61f34209969ca6657734edfdfff30
-  RxRealmDataSources: 6a2e3f3f13bbcc5f82a7f196b8afd76f81ee187b
-  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  Realm: e125f464884cda953ebefe70c671b75b03b81b9b
+  RealmSwift: 33656a42bd300959a081fc13347376bc478071af
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRealm: 900f5c7e6f0a2d6527b56eaf7283f3035ec1e8ba
+  RxRealmDataSources: 1f252d08c215952fdd048ba7b3bca3e1f9804a6b
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
 
-PODFILE CHECKSUM: 175a2b93e28914dd5f43bc5b1f099b29747773d8
+PODFILE CHECKSUM: 133098fdbeba915e337108c50451a271c56b3468
 
 COCOAPODS: 1.5.3
